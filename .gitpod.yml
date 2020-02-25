@@ -1,4 +1,5 @@
-image: .gitpod.dockerfile
+image: 
+  file: .gitpod.Dockerfile
 # Command to start on workspace startup (optional)
 tasks:
   - init: mkdir -p /workspace/data
